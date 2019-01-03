@@ -1,38 +1,36 @@
-## ReactJS Facebook messenger
+# ReactJS Facebook messenger
 
-The goal of this exercise is to learn how to think in React.
+The goal of this exercise is to learn how to test React components.
 
-## Requirements
-You need to be comfortable writing JavaScript (ES6: Module system, class syntax, destructuring assignment).
-You need to have `node`and `npm`installed in your computer.
+## To get started
 
-## Clone the repo
+### Step 1
 
+If you haven't already set up your project, head here and follow the instructions https://github.com/leanjscom/fb-messenger/blob/master/README.md
+
+
+### Step 2
 ```sh
-git clone git@github.com:leanjscom/fb-messenger.git`
-```
-Then `cd` into fb-messenger
+ git checkout testing-react
+ ```
+
+### Step 3
 ```sh
-cd fb-messenger
-```
+ npm i
+ ```
 
-## Branches
+## Exercise
 
-You will need to head to the correct branch for the exercise.
+1- Replace all the tests in src/actions for snapshot tests. You have an example in src/actions/ui.test.js
 
-How? run:
+## Articles and links
 
-```sh
-git pull --all
+- [https://martinfowler.com/bliki/TestPyramid.html](https://martinfowler.com/bliki/TestPyramid.html)
+- [https://facebook.github.io/jest/docs/en/expect.html#content](https://facebook.github.io/jest/docs/en/expect.html#content)
+- [https://martinfowler.com/articles/mocksArentStubs.html](https://martinfowler.com/articles/mocksArentStubs.html)
+- [https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a](https://medium.com/javascript-scene/mocking-is-a-code-smell-944a70c90a6a)
+- [https://www.youtube.com/watch?v=EZ05e7EMOLM](https://www.youtube.com/watch?v=EZ05e7EMOLM)
 
-git branch --all
-
-git checkout <branch_name>
-```
-## Getting started:
-```sh
-npm install && npm start
-```
 ## License
 
 This material is available for private, non-commercial use under the [GPL version 3](http://www.gnu.org/licenses/gpl-3.0-standalone.html).
